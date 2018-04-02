@@ -1,12 +1,12 @@
 <template>
 <nav class="container-fluid">
-    <div class="container navbar navbar-expand-lg navbar-light">
+    <div class="container navbar fixed-top navbar-expand-lg navbar-light">
         <a class="navbar-brand" href="#"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-            <ul class="navbar-nav navbar-right">
+        <div class="collapse navbar-collapse" id="navbarToggler">
+            <ul class="navbar-nav navbar-right mt-2 mt-lg-0">
                 <li class="active"><a href="#" data-nav-section="welcome">BIENVENUE</a></li>
                 <li><a href="#" data-nav-section="specialties">SPÉCIALITÉES</a></li>
                 <li><a href="#" data-nav-section="menu">MENU</a></li>
@@ -53,6 +53,5 @@ export default {
 li {
     width: auto;
     padding: 15px 4% 0 0;
-    text-align: right;
 }
 </style>
