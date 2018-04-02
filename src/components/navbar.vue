@@ -6,7 +6,7 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-            <ul class="navbar-nav mr-auto navbar-right">
+            <ul class="navbar-nav navbar-right">
                 <li class="active"><a href="#" data-nav-section="welcome">BIENVENUE</a></li>
                 <li><a href="#" data-nav-section="specialties">SPÉCIALITÉES</a></li>
                 <li><a href="#" data-nav-section="menu">MENU</a></li>
@@ -29,10 +29,11 @@ export default {
     color: white;
     font-weight: bold;
     font-size: 1rem;
+    background-color: black;
 }
 
 .navbar {
-    margin-top: 15px;
+    position: fixed;
 }
 
 .navbar-brand {
@@ -49,16 +50,9 @@ export default {
     transition: .2s all;
 }
 
-ul {
-    text-align: right;
-}
-
 li {
     width: auto;
-    padding: 15px 4% 0 2%;
-}
-
-a {
-    padding-top: 10px;
+    padding: 15px 4% 0 0;
+    text-align: right;
 }
 </style>

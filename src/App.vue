@@ -25,7 +25,6 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #000000;
   line-height: 1.5;
   font-family: "Open Sans", Arial, sans-serif;
 }
